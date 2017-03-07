@@ -1,0 +1,123 @@
+@font-face {font-family: Charter; src: url('fonts/Charter.ttc');}
+@font-face {font-family: Franklin Gothic Book; src: url('fonts/Franklin-Gothic-Book.ttf');}
+
+html, body {
+	overflow-x: hidden;
+}
+
+.box {
+	position: fixed;
+	width: 150px;
+	height: 150px;
+	background-color: #FA604B;
+	border-radius: 7px;
+	left: 50%;
+	margin: 150px 0 0 -75px;
+}
+
+.cruncher1 {
+	position: absolute;
+	width: 300px;
+	left: 50%;
+	margin: 70px 0 0 -150px;
+}
+
+.cruncher2 {
+	position: absolute;
+	width: 300px;
+	left: 50%;
+	margin: 600px 0 0 -150px;
+	overflow: scroll;
+}
+
+.filler {
+	display: block;
+	width: 300px;
+	height: 1500px;
+}
+
+.overlay {
+	background-color: #FFFFFF;
+	opacity: 0.8;
+}
+
+.article-img {
+	background: url('https://s-media-cache-ak0.pinimg.com/originals/6b/62/d5/6b62d5aa29cfcd04dcc572da1434fe4c.jpg');
+	background-size: 100%;
+	height: 198px;
+}
+
+.left {
+	display: none;
+	height: 198px;
+	width: 120px;
+}
+
+.right {
+	display: none;
+	height: 198px;
+	width: 120px;
+	float: right;
+}
+
+h1 {
+	font-family: 'Charter', serif;
+	font-size: 25px;
+}
+
+h2 {
+	font-family: "Franklin Gothic Book", serif;
+	font-size: 14px;
+	margin-top: -5px;
+	color: #9D9D9D;
+}
+
+h3 {
+	display: none;
+	font-family: 'Charter', serif;
+	font-size: 14px;
+	margin: 70px 5px 0px 5px;
+}
+
+p {
+	font-family: "Franklin Gothic Book", serif;
+}
+
+.col-sm-1 {
+	margin: 0;
+}
+
+.col-sm-10 {
+	margin: 0;
+}
+
+.left-side {
+	display: inline-block;
+	width: 320px;
+	margin-left: -290px;
+	opacity: 0.3;
+	margin-top: 40px;
+}
+
+.main-story {
+	display: inline-block;
+	position: absolute;
+	width: 80%;
+	left: 50%;
+	margin-left: -40%;
+}
+
+.right-side {
+	display: inline-block;
+	width: 320px;
+	margin-right: -290px;
+	float: right;
+	opacity: 0.3;
+	margin-top: 40px;
+}
+
+.img {
+	height: 300px;
+	background-color: black;
+	margin: auto;
+}
