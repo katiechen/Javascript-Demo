@@ -37,6 +37,7 @@ html, body {
 }
 
 .overlay {
+	display: inline-block;
 	background-color: #FFFFFF;
 	opacity: 0.8;
 }
@@ -48,12 +49,23 @@ html, body {
 }
 
 .left {
+	height: 198px;
+	width: 0px;
+}
+
+.left-hover {
 	display: none;
 	height: 198px;
 	width: 120px;
 }
 
 .right {
+	height: 198px;
+	width: 0px;
+	float: right;
+}
+
+.right-hover {
 	display: none;
 	height: 198px;
 	width: 120px;
@@ -77,6 +89,14 @@ h3 {
 	font-family: 'Charter', serif;
 	font-size: 14px;
 	margin: 70px 5px 0px 5px;
+}
+
+.right h3 {
+	text-align: right;
+}
+
+.right-hover h3 {
+	text-align: right;
 }
 
 p {

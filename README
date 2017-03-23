@@ -1,0 +1,26 @@
+LIBRARIES USED
+--------------
+Bootstrap
+JQuery
+Hammer.js
+Hammer.js JQuery Plugin
+
+
+THREE INTERACTION TYPES
+-----------------------
+
+1. Hover Interaction - to reveal sliding headline panels (for Desktop)
+	hover.html
+	script.js
+
+2. Scroll Interaction - to reveal sliding headline panels (for Mobile)
+	scroll.html
+	script.js
+
+3. Swipe Interaction - to reveal opposite sides of the story (for Mobile)
+	swipe.html
+	swipe-script.js
+
+NOTES FOR SWIPE INTERACTION
+- pull window to mobile size before swiping
+- swipe left/right on middle article element
